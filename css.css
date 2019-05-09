@@ -11,6 +11,14 @@ h4{
 p{
   color: white;
 }
+.foto{
+  z-index: 2;
+  top: 374px;
+  left: 5px;
+  position: absolute;
+  color: grey;
+  font-size: 11px;
+}
 
 .carousel-control-prev {
   margin-left: -25px;
