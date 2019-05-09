@@ -3,15 +3,6 @@ $(function(){
     $(this).find(".player-nick").stop().toggle("slow");
   })
 
-  $(document).on('click', '.cta', function () {
-    $(this).toggleClass('active');
-})
-
-  if (parseInt($(window).width()) < 768) {
-    $("#carousel").not(".card-group").remove();
-    $('#carousel').children().filter(':not(.card-group)').hide();
-}
-
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
